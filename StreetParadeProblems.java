@@ -1,11 +1,15 @@
 import java.util.*;
-public class StreetParadeProblems {
+public class StreetParadeProblems{
 public static void main(String[] args) {
 
 	Stack<Integer> b=new Stack<Integer>();
 	Scanner s=new Scanner(System.in);
+int t=s.nextInt();
+
 	
+while(t-->0){	
 	int n=s.nextInt();
+	
 	int[]  a2=new int[n];
 	int[]  a1=new int[n];
 	int[]  c=new int[n];
@@ -54,15 +58,17 @@ public static void main(String[] args) {
 			}
 			if(flag==1)
 			{
-				System.out.println("NO");
+				System.out.println("No");
+				
 			}
 			else
 			{
-				System.out.println("YES");
+				System.out.println("Yes");
 			}
+	b.clear();
 			
 		
-	
+}
 
 
 }
